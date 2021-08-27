@@ -77,32 +77,6 @@ layout: default
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-<div id="subscribe" class="modalDialog">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<h2>Subscribe</h2>
-			<p>The latest tutorials sent straight to your inbox.</p>
-			<input type="email" name="EMAIL" placeholder="Email">
-			<input type="submit" value="Sign up">
-		</form>
-	</div>
-</div>
-
-<div id="share" class="modalDialog sharing">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<h2>Share</h2>
-		<p>Share this tutorial with your community.</p>
-		<ul>
-			<li><a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Twitter" %} Twitter</a></li>
-			<li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Facebook2" %} Facebook</a></li>
-			<li><a class="google-plus" target="_blank" href="https://plus.google.com/share?url={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Google Plus" %} Google+</a></li>
-			<li><a class="hacker-news" target="_blank" href="http://news.ycombinator.com/submitlink?u={{ page.url | prepend: site.url | cgi_escape }}&t={{ page.title | cgi_escape | replace: "+", "%20" }}">{% include social-icon.html icon="Hacker News" %} Hacker News</a></li>
-		</ul>
-	</div>
-</div>
-
 <script src="{{ site.baseurl }}/js/main.js"></script>
 
 <script>
