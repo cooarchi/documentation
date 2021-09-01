@@ -1,3 +1,11 @@
+---
+date: 2021-08-30
+title: cooArchi Installation
+categories:
+  - Your own cooArchi
+description: 
+type: Document
+---
 # cooArchi Installation/Setup
 
 This document tries to help you to get cooArchi up and running on your webserver.
