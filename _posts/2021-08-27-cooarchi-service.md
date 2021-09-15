@@ -2,7 +2,7 @@
 date: 2021-08-27
 title: cooArchi as a service
 categories:
-  - Tech
+  - Your own cooArchi
 description: 
 type: Document
 ---
